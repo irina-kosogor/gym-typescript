@@ -1,5 +1,3 @@
-import { SelectedPage } from "@/shared/types";
-import { motion } from "framer-motion";
 import Logo from "@/assets/Logo.png";
 
 function Footer() {
