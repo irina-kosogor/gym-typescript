@@ -90,7 +90,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
         </motion.div>
         <div className="mx-auto mt-10 w-[980px]">
           <Slider {...settings}>
-            {classes.map((item, index) => {
+            {classes.map((item: ClassType, index) => {
               return (
                 <Class
                   key={`${item.name}-${index}`}
